@@ -1,6 +1,6 @@
 {% set name = "ldaptor" %}
-{% set version = "19.0.0" %}
-{% set sha256 = "100ee49fb76ffb2707653b2d7847715f8bc7469d8738391056c6a96ef63f27ea" %}
+{% set version = "19.1.0" %}
+{% set sha256 = "64c7b870c77e34e4f5f9cfdf330b9702e89b4dd0f64275704f86c1468312c755" %}
 
 package:
   name: {{ name|lower }}
@@ -22,9 +22,7 @@ requirements:
     - python
     - setuptools
     - pycrypto
-    # FIXME: Build currently against previous twisted version, because of
-    # https://groups.google.com/a/continuum.io/forum/?fromgroups#!topic/anaconda/2_YQ3jGU1RQ 
-    - twisted <17.1.0
+    - twisted
     - pyopenssl
     - pyparsing
     - zope.interface
@@ -32,8 +30,7 @@ requirements:
   run:
     - python
     - pycrypto
-    # FIXME: see above
-    - twisted <17.1.0
+    - twisted
     - pyopenssl
     - pyparsing
     - zope.interface
