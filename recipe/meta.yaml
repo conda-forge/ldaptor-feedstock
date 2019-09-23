@@ -22,9 +22,7 @@ requirements:
     - python
     - setuptools
     - pycrypto
-    # FIXME: Build currently against previous twisted version, because of
-    # https://groups.google.com/a/continuum.io/forum/?fromgroups#!topic/anaconda/2_YQ3jGU1RQ 
-    - twisted <17.1.0
+    - twisted
     - pyopenssl
     - pyparsing
     - zope.interface
@@ -32,8 +30,7 @@ requirements:
   run:
     - python
     - pycrypto
-    # FIXME: see above
-    - twisted <17.1.0
+    - twisted
     - pyopenssl
     - pyparsing
     - zope.interface
