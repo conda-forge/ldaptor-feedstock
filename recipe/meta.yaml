@@ -18,20 +18,17 @@ build:
 
 requirements:
   host:
+    - passlib
     - pip
+    - pyparsing
     - python
     - setuptools
-    - pycrypto
     - twisted
-    - pyopenssl
-    - pyparsing
     - zope.interface
 
   run:
     - python
-    - pycrypto
     - twisted
-    - pyopenssl
     - pyparsing
     - zope.interface
 
