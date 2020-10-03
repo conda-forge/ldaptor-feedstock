@@ -1,6 +1,6 @@
 {% set name = "ldaptor" %}
-{% set version = "20.1.0" %}
-{% set sha256 = "5f7da3aaf00fa8ba3329e9d5c6ee3f66868ca2e5bf935f7b2537701a3ee01597" %}
+{% set version = "20.1.1" %}
+{% set sha256 = "778f45d68a0b5d63a892c804c05e57b464413a41d8ae52f92ae569321473ab67" %}
 
 package:
   name: {{ name|lower }}
