@@ -27,9 +27,10 @@ requirements:
     - zope.interface
 
   run:
+    - passlib
+    - pyparsing
     - python
     - twisted
-    - pyparsing
     - zope.interface
 
 test:
