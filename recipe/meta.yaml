@@ -1,6 +1,6 @@
 {% set name = "ldaptor" %}
-{% set version = "20.1.1" %}
-{% set sha256 = "778f45d68a0b5d63a892c804c05e57b464413a41d8ae52f92ae569321473ab67" %}
+{% set version = "21.2.0" %}
+{% set sha256 = "8c49eb19375d4aab3e5b835860614e0cb17e56bb5a20e1874808fa5bec67a358" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
