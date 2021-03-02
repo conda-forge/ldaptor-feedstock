@@ -21,7 +21,7 @@ requirements:
     - passlib
     - pip
     - pyparsing
-    - python
+    - python >=3.6
     - setuptools
     - twisted
     - zope.interface
@@ -29,7 +29,7 @@ requirements:
   run:
     - passlib
     - pyparsing
-    - python
+    - python >=3.6
     - twisted
     - zope.interface
 
